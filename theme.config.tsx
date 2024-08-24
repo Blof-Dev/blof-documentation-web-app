@@ -1,18 +1,27 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Image from 'next/image';
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: (
+    <Image
+      src='/blof-logo.png'
+      alt='blof logo'
+      width={40}
+      height={40}
+      className='rounded-[7px]'
+    />
+  ),
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/Blof-Dev',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  // chat: {
+  //   link: 'https://x.com/blof_dev',
+  // },
+  docsRepositoryBase: 'https://github.com/Blof-Dev',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Blof',
   },
-}
+};
 
 export default config

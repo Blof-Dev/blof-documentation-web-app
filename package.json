@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "https://github.com/Blof-Dev"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Andrew James Okpainmo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://blof.dev"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://blof.dev",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
@@ -26,6 +26,9 @@
   },
   "devDependencies": {
     "@types/node": "18.11.10",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
     "typescript": "^4.9.3"
   }
 }
